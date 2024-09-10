@@ -1,9 +1,18 @@
+import ExperienceEducation from "@/components/ExperienceEducation";
+import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Skills from "@/components/Skills";
+import Contact from "./contact/page";
 
 export default function Home() {
   return (
-    <div className="p-4 md:p-8">
-      <Navbar />
-    </div>
+    <>
+      <main>
+        <Hero />
+        <ExperienceEducation />
+        <Skills />
+        <Contact />
+      </main>
+    </>
   );
 }

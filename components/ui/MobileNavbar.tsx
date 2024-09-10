@@ -59,7 +59,7 @@ export default function MobileNavbar() {
       <div
         id="sidebar"
         ref={sidebar}
-        className={`fixed z-30 bg-primary-foreground w-[60%] h-full top-0 right-0 transform transition-transform duration-300 ${
+        className={`fixed z-30 bg-primary-foreground w-[60%] h-full top-0 right-0 transform transition-transform duration-700 ${
           open ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -95,7 +95,7 @@ export default function MobileNavbar() {
             </li>
             <li className="w-full">
               <Link
-                href={"/"}
+                href={"/about"}
                 onClick={handleClick}
                 className="hover:bg-muted p-4 w-full block text-center"
               >
@@ -104,7 +104,7 @@ export default function MobileNavbar() {
             </li>
             <li className="w-full">
               <Link
-                href={"/"}
+                href={"/contact"}
                 onClick={handleClick}
                 className="hover:bg-muted p-4 w-full block text-center"
               >

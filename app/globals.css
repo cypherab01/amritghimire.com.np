@@ -69,4 +69,21 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Custom CSS */
+  h1 {
+    @apply scroll-m-20 text-6xl font-extrabold tracking-tight lg:text-7xl;
+  }
+
+  h2 {
+    @apply text-4xl font-semibold lg:text-5xl ;
+  }
+  
+  h3 {
+    @apply text-2xl font-semibold lg:text-3xl;
+  }
+
+  section {
+    @apply py-2 md:py-4 container mx-auto;
+  }
 }

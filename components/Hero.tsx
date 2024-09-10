@@ -9,7 +9,7 @@ export default function Hero() {
     <div className="container mx-auto py-12 md:py-24 flex flex-col md:flex-row items-center justify-between gap-8">
       <div id="hero-text" className="w-full md:w-1/2 space-y-6">
         <div>
-          <h3>Hello I'm</h3>
+          <h3>Hello I&apos;m</h3>
           <h1>Amrit Ghimire</h1>
         </div>
 
@@ -18,8 +18,8 @@ export default function Hero() {
           specialize in designing innovative solutions that blend technology
           with practicality. My expertise in Electrical AutoCAD, PLC and HMI
           design, and Ignition Vision empowers me to create systems that are
-          both efficient and reliable. Let's collaborate to bring ideas to life
-          and drive progress.
+          both efficient and reliable. Let&apos;s collaborate to bring ideas to
+          life and drive progress.
         </p>
 
         <div className="flex flex-wrap gap-4">

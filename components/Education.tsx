@@ -18,7 +18,7 @@ const education = [
   {
     title: "High School Diploma",
     date: "2009 - 2011",
-    institution: "St. Xavier's High School, Kathmandu",
+    institution: "St. Xavier&apos;s High School, Kathmandu",
     description:
       "Completed foundational studies with a focus on science and mathematics.",
   },

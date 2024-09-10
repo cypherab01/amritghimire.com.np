@@ -11,8 +11,8 @@ export default function Contact() {
           Contact
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-muted-foreground sm:text-xl">
-          Have a question or want to work together? Don't hesitate to contact
-          me.
+          Have a question or want to work together? Don&apos;t hesitate to
+          contact me.
         </p>
         <form action="#" className="space-y-8">
           <div>
